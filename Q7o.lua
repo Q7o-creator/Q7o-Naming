@@ -198,4 +198,3 @@ selectPlayerBtn.MouseButton1Click:Connect(function()
 		if t and t.Parent and Players:GetPlayerFromCharacter(t.Parent) then selectedPlayer = Players:GetPlayerFromCharacter(t.Parent); selectPlayerBtn.Text = "المحدد: "..selectedPlayer.Name; tool:Destroy() end
 	end)
 end)
-
